@@ -1,0 +1,15 @@
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\bin\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.deps.json
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\bin\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\bin\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\bin\Debug\net6.0-windows10.0.22000.0\iPlatoModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\bin\Debug\net6.0-windows10.0.22000.0\iPlatoModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.csproj.AssemblyReference.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.AssemblyInfoInputs.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.AssemblyInfo.cs
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.csproj.CoreCompileInputs.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.csproj.CopyComplete
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\refint\iPlatoViewModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\iPlatoViewModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoViewModel\obj\Debug\net6.0-windows10.0.22000.0\ref\iPlatoViewModel.dll

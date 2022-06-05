@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.22000.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>iPlato.App</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iPlatoViewModel\iPlatoViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="iPlatoModel">
+      <HintPath>..\iPlatoModel\bin\Debug\net6.0-windows\iPlatoModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

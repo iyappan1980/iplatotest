@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "iPlatoViewModel/1.0.0": {
+        "dependencies": {
+          "iPlatoModel": "1.0.0"
+        },
+        "runtime": {
+          "iPlatoViewModel.dll": {}
+        }
+      },
+      "iPlatoModel/1.0.0": {
+        "runtime": {
+          "iPlatoModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iPlatoViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "iPlatoModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

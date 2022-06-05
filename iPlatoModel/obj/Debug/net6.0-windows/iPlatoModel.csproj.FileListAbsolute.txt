@@ -1,0 +1,12 @@
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\bin\Debug\net6.0-windows\iPlatoModel.deps.json
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\bin\Debug\net6.0-windows\iPlatoModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\bin\Debug\net6.0-windows\iPlatoModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.csproj.AssemblyReference.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.AssemblyInfoInputs.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.AssemblyInfo.cs
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.csproj.CoreCompileInputs.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\refint\iPlatoModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\iPlatoModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\iPlatoModel\obj\Debug\net6.0-windows\ref\iPlatoModel.dll
