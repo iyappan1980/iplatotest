@@ -885,6 +885,35 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "iPlatoModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/iPlatoModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iPlatoModel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "iPlatoViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "iPlatoModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/iPlatoViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iPlatoViewModel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -3837,6 +3866,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "iPlatoModel/1.0.0": {
+      "type": "project",
+      "path": "../iPlatoModel/iPlatoModel.csproj",
+      "msbuildProject": "../iPlatoModel/iPlatoModel.csproj"
+    },
+    "iPlatoViewModel/1.0.0": {
+      "type": "project",
+      "path": "../iPlatoViewModel/iPlatoViewModel.csproj",
+      "msbuildProject": "../iPlatoViewModel/iPlatoViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3845,7 +3884,8 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
-      "coverlet.collector >= 3.1.2"
+      "coverlet.collector >= 3.1.2",
+      "iPlatoViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3879,7 +3919,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoViewModel\\iPlatoViewModel.csproj": {
+              "projectPath": "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoViewModel\\iPlatoViewModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

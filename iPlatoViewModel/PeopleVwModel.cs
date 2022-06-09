@@ -30,22 +30,22 @@ namespace iPlatoVwModel
             set
             {
                 pplName = value;
-                OnPropertyChanged("Name");                
-               
+                OnPropertyChanged("Name");
+
             }
         }
-                
+
         public string? Dob
         {
             get { return pplDob; }
             set
             {
                 pplDob = value;
-                OnPropertyChanged("Dob");              
-                
+                OnPropertyChanged("Dob");
+
             }
         }
-       
+
         public string? Profession
         {
             get { return pplProfession; }
@@ -76,14 +76,14 @@ namespace iPlatoVwModel
                     BtnDeleteEnable = true;
                     TxtboxEnalbed = false;
                     BtnAddEnable = true;
-                    BtnSaveEnable= false;
+                    BtnSaveEnable = false;
                 }
 
             }  // set method
         }
 
         private bool txtboxEnalbed;
-        public bool TxtboxEnalbed 
+        public bool TxtboxEnalbed
         {
             get { return txtboxEnalbed; }
             set
@@ -115,7 +115,7 @@ namespace iPlatoVwModel
         }
 
         private bool btnEditEnable;
-        public bool BtnEditEnable 
+        public bool BtnEditEnable
         {
             get { return btnEditEnable; }
             set
@@ -125,7 +125,7 @@ namespace iPlatoVwModel
             }
         }
         private bool btnDeleteEnable;
-        public bool BtnDeleteEnable 
+        public bool BtnDeleteEnable
         {
             get { return btnDeleteEnable; }
             set
@@ -149,10 +149,10 @@ namespace iPlatoVwModel
         private static PeopleVwModel? instance;
         // Constructor is 'protected'       
         public static PeopleVwModel Instance()
-        {           
+        {
             if (instance == null)
             {
-                instance = new PeopleVwModel();                
+                instance = new PeopleVwModel();
             }
             return instance;
         }
@@ -198,7 +198,7 @@ namespace iPlatoVwModel
                 return true;
             }
         }
-        
+
         private ICommand? _SaveClickCommand;
         public ICommand SaveClickCommand
         {
@@ -208,7 +208,7 @@ namespace iPlatoVwModel
             }
         }
         public string Action;
-       
+
         public void AddNewRecord()
         {
             TxtboxEnalbed = true;
@@ -230,13 +230,14 @@ namespace iPlatoVwModel
 
         }
 
-        public void SaveRecord()
+        public string SaveData(string act,int? pepid, string? pepname,string? pepdob,string? pepprofession)
         {
             try
             {
-                if (Action == "Add")
+                string result = string.Empty;
+                if (act == "Add")
                 {
-                    if (!string.IsNullOrEmpty(this.Name))
+                    if (!string.IsNullOrEmpty(pepname))
                     {
                         DataRow drRow = dtTable.NewRow();
                         if (dtTable.Rows.Count == 0)
@@ -249,34 +250,33 @@ namespace iPlatoVwModel
                             drRow["Id"] = autonum + 1;
                         }
 
-                        drRow["Name"] = this.Name;
-                        drRow["Dob"] = this.Dob;
-                        drRow["Profession"] = this.Profession;
+                        drRow["Name"] = pepname;
+                        drRow["Dob"] = pepdob;
+                        drRow["Profession"] = pepprofession;
                         dtTable.Rows.Add(drRow);
-
-                        MessageBox.Show("Record Added Successfully");
+                        result = "Record Added Successfully";
                         clearvalues();
-                        
+
                     }
                 }
-                else if(Action == "Update")
+                else if (act == "Update")
                 {
                     if (dtTable != null)
                         if (dtTable.Rows.Count > 0)
                         {
-                            if (this.Id != null)
+                            if (pepid != null)
                             {
-                                DataRow[] rows = this.dtTable.Select("Id = '" + this.Id + "'");
+                                DataRow[] rows = this.dtTable.Select("Id = '" + pepid + "'");
                                 if (rows.Count() > 0)
                                 {
                                     foreach (DataRow row in rows)
                                     {
-                                        row["Name"] = this.Name;
-                                        row["Dob"] = this.Dob;
-                                        row["Profession"] = this.Profession;
+                                        row["Name"] = pepname;
+                                        row["Dob"] = pepdob;
+                                        row["Profession"] = pepprofession;
                                         this.dtTable.AcceptChanges();
                                     }
-                                    MessageBox.Show("Record Updated Successfully");
+                                    result = "Record Updated Successfully";
                                     clearvalues();
                                 }
                             }
@@ -288,9 +288,15 @@ namespace iPlatoVwModel
                 TxtboxEnalbed = false;
                 BtnEditEnable = false;
                 BtnDeleteEnable = false;
+                return result;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             { throw ex; }
+        }
+
+        public void SaveRecord()
+        {           
+            MessageBox.Show(SaveData(Action, this.Id, this.Name, this.Dob, this.Profession));
         }
         public void EditRecord()
         {
@@ -312,19 +318,33 @@ namespace iPlatoVwModel
         {
             try
             {
+               
+                MessageBox.Show(DeleteData(this.Id));                
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public string DeleteData(int? pepid)
+        {
+            try
+            {
+                string result = string.Empty;
                 if (dtTable != null)
                     if (dtTable.Rows.Count > 0)
                     {
-                        if (this.Id != null)
-                        {                            
-                            DataRow[] rows = this.dtTable.Select("Id = '" + this.Id + "'");
+                        if (pepid != null)
+                        {
+                            DataRow[] rows = this.dtTable.Select("Id = '" + pepid + "'");
                             if (rows.Count() > 0)
                             {
                                 dtTable.Rows.Remove(rows[0]);
                                 dtTable.AcceptChanges();
                             }
-
-                            MessageBox.Show("Record Deleted Successfully");
+                            result = "Record Deleted Successfully";                           
                             clearvalues();
                             BtnSaveEnable = false;
                             BtnAddEnable = true;
@@ -333,13 +353,14 @@ namespace iPlatoVwModel
                             BtnDeleteEnable = false;
                         }
                     }
-
+                return result;
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+        
         public void tablestructure()
         {
             dtTable = new DataTable();

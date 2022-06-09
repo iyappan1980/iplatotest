@@ -12,7 +12,8 @@
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
-          "coverlet.collector": "3.1.2"
+          "coverlet.collector": "3.1.2",
+          "iPlatoViewModel": "1.0.0"
         },
         "runtime": {
           "UnitTest.dll": {}
@@ -651,6 +652,19 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "iPlatoModel/1.0.0": {
+        "runtime": {
+          "iPlatoModel.dll": {}
+        }
+      },
+      "iPlatoViewModel/1.0.0": {
+        "dependencies": {
+          "iPlatoModel": "1.0.0"
+        },
+        "runtime": {
+          "iPlatoViewModel.dll": {}
+        }
       }
     }
   },
@@ -988,6 +1002,16 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "iPlatoModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "iPlatoViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,8 +1,4 @@
-E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.csproj.AssemblyReference.cache
-E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.GeneratedMSBuildEditorConfig.editorconfig
-E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.AssemblyInfoInputs.cache
-E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.AssemblyInfo.cs
-E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.csproj.CoreCompileInputs.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\CoverletSourceRootsMapping
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\testhost.dll
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\testhost.exe
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -91,6 +87,15 @@ E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windo
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\iPlatoModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\iPlatoViewModel.dll
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\iPlatoViewModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\bin\Debug\net6.0-windows\iPlatoModel.pdb
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.csproj.AssemblyReference.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.AssemblyInfoInputs.cache
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.AssemblyInfo.cs
+E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.csproj.CoreCompileInputs.cache
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.csproj.CopyComplete
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\UnitTest.dll
 E:\Iyappan\Interview Questions\iPlato\iPlatoTest\UnitTest\obj\Debug\net6.0-windows\refint\UnitTest.dll

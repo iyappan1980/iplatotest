@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x57kueOzq24z1ms0WJlRBkUkxTH4nakG0/FtiLbfOr5pHNTbkz0X+O0qRJcNE6C0WyiPynFZJiW5M0gX7Zl4LA==",
+  "dgSpecHash": "wci2KCHFsTR/VFO/kQ8TiXcTSYFJ7uTtmKRCxGpHlhmJWhFF5u0gr3DbTRYG+MB7VSrQrIx0c7FEk2KYGRWyLQ==",
   "success": true,
   "projectFilePath": "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoViewModel\\iPlatoViewModel.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\IYAPPAN\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.25\\microsoft.windows.sdk.net.ref.10.0.22000.25.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

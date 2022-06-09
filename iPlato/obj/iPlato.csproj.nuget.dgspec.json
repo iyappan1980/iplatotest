@@ -83,15 +83,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows10.0.22000"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows10.0.22000": {
-            "targetAlias": "net6.0-windows10.0.22000.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows7.0",
             "projectReferences": {
               "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoModel\\iPlatoModel.csproj": {
                 "projectPath": "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoModel\\iPlatoModel.csproj"
@@ -106,8 +106,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows10.0.22000": {
-          "targetAlias": "net6.0-windows10.0.22000.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows7.0",
           "imports": [
             "net461",
             "net462",
@@ -118,17 +118,8 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.22000.25, 10.0.22000.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             },
             "Microsoft.WindowsDesktop.App.WPF": {
@@ -157,15 +148,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows10.0.22000"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows10.0.22000": {
-            "targetAlias": "net6.0-windows10.0.22000.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows7.0",
             "projectReferences": {
               "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoViewModel\\iPlatoViewModel.csproj": {
                 "projectPath": "E:\\Iyappan\\Interview Questions\\iPlato\\iPlatoTest\\iPlatoViewModel\\iPlatoViewModel.csproj"
@@ -180,8 +171,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows10.0.22000": {
-          "targetAlias": "net6.0-windows10.0.22000.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows7.0",
           "imports": [
             "net461",
             "net462",
@@ -192,17 +183,8 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.22000.25, 10.0.22000.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             },
             "Microsoft.WindowsDesktop.App.WPF": {
